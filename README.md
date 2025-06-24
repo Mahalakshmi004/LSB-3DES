@@ -1,11 +1,17 @@
 # LSB-3DES
+
 Steganography with Cryptography
-PROJECT OVERVIEW: 
+
+PROJECT OVERVIEW:
+
 This Python project hides (encodes) a secret encrypted message inside an image using the Least Significant Bit (LSB) technique. The message is first encrypted using Triple DES (3DES) for security, and then the encrypted data is hidden in the image.Later, the user can decode and decrypt the message from the image.
 
 Required libraries:
+
 Pillow (for image processing)
+
 pycryptodome (for encryption)
+
 hashlib (for MD5 key hashing)
 
 ---Install all the required packages---
